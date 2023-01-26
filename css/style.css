@@ -21,7 +21,7 @@
 }
 
 .hero{
-  background-color: black;
+  background-color: #252420;
   color: #fff;
 }
 
@@ -41,7 +41,7 @@
 
 .hero-heading{
   font-size: 40px;
-  line-height: 1.2px;
+  line-height: 48px;
   letter-spacing: 0.5px;
 }
 

@@ -29,13 +29,30 @@
   width: 390px;
 }
 
+.orange-line{
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
 .hero-img{
   width: 510px;
   height: 510px;
 }
 
-.hero-line{
-  width: 80px;
-  height: 3px;
-  background-color: #ff7500;
+.hero-heading{
+  font-size: 40px;
+  line-height: 1.2px;
+  letter-spacing: 0.5px;
+}
+
+.hero-text{
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.features-heading{
+  width: 440px;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
 }

@@ -107,3 +107,12 @@
   height: 440px;
   object-fit: cover;
 }
+
+.site-footer{
+background-color: #f8f8f8;
+}
+
+.site-footer-divider{
+  height: 2px;
+  background-color: rgba(37, 36, 32, 0.5);
+}

@@ -56,3 +56,54 @@
   line-height: 1.2;
   letter-spacing: 0.5px;
 }
+
+.feature{
+  width: 340px;
+}
+
+.feature-icon-wrapper{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+}
+
+.feature-title{
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.feature-info{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.promo{
+  background-color: #252420;
+  color: #fff;
+}
+
+.promo-content{
+  width: 440px;
+}
+
+.promo-heading{
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.promo-text{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.promo-highlight{
+  color: #ff7500;
+}
+
+.promo-img{
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+}

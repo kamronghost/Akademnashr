@@ -37,10 +37,22 @@ opacity: 0.8;
   display: flex;
   align-items: center;
 }
+
+/* Sittenav */
 .sitenav-list{
   display: flex;
   list-style: none;
+  margin: 0;
+  margin-right: 32px;
   padding: 0;
+}
+
+.sitenav-item{
+  margin-right: 32px;
+}
+
+.sitenav-item:last-child{
+  margin-right: 0;
 }
 
 .sitenav-link{
@@ -103,6 +115,8 @@ color: #ff7500;
   width: 80px;
   height: 3px;
   border: 0;
+  margin: 0;
+  margin-right: 40px;
   background-color: #ff7500;
 }
 .hero-img{
@@ -112,11 +126,17 @@ color: #ff7500;
 }
 
 .hero-heading{
+  margin-top: 0;
+  margin-bottom: 24px;
   font-size: 40px;
   line-height: 48px;
   font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 
+.hero-text{
+  margin-top: 0;
+  margin-bottom: 32px;
+}
 
 /* Features */
 .features{
@@ -127,6 +147,8 @@ color: #ff7500;
 
 .features-heading{
   width: 440px;
+  margin-top: 0;
+  margin-bottom: 72px;
   font-size: 72px;
   line-height: 1.2;
   font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
@@ -135,13 +157,18 @@ color: #ff7500;
 
 .features-lists{
   display: flex;
-  justify-content: space-between;
-  list-style: none;
+    list-style: none;
+  margin: 0;
   padding: 0;
 }
 
 .feature{
   width: 340px;
+  margin-right: 40px;
+}
+
+.feature:last-child{
+  margin: 0;
 }
 
 .feature-icon-wrapper{
@@ -176,9 +203,24 @@ color: #ff7500;
 }
 
 .promo-heading{
+  margin-top: 0;
+  margin-bottom: 24px;
   font-size: 40px;
   line-height: 48px;
   font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+}
+
+.promo-info-wrapper{
+  margin-bottom: 24px;
+}
+
+.promo-text{
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.promo-text:last-child{
+  margin-bottom: 0;
 }
 
 .promo-highlight{
@@ -214,6 +256,15 @@ color: #ff7500;
   display: flex;
   align-items: center;
   padding: 0;
+  margin: 0;
+}
+
+.site-footer-socials li{
+  margin-right: 16px;
+}
+
+.site-footer-socials li:last-child{
+  margin-right: 0;
 }
 
 .site-footer-socials a{
@@ -236,11 +287,21 @@ color: #ff7500;
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
   border: 0;
+  margin-top: 40px;
+  margin-bottom: 64px;
 }
 
 .site-footer-links{
   width: 224px;
+  padding: 0;
+  margin: 0;
+  margin-right: 68px;
+  list-style: none;
   line-height: 19px;
+}
+
+.site-footer-links:last-child{
+  margin-right: 0;
 }
 
 .site-footer-links a{

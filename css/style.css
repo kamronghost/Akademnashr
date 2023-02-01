@@ -43,7 +43,9 @@ opacity: 0.8;
   display: flex;
   list-style: none;
   margin: 0;
+  /* Navigatsiya qismi hamda Buyurtma berish knopkasi orasidagi marginni oladi */
   margin-right: 32px;
+  /* Navigatsiya hamda knopka qismi */
   padding: 0;
 }
 
@@ -51,6 +53,7 @@ opacity: 0.8;
   margin-right: 32px;
 }
 
+/* Oxirgi elementni marginini olinb tashlash */
 .sitenav-item:last-child{
   margin-right: 0;
 }
@@ -267,7 +270,9 @@ color: #ff7500;
   margin-right: 0;
 }
 
+/* Ikonkalar */
 .site-footer-socials a{
+  display: block;
   color: #252420;
 }
 
@@ -277,6 +282,10 @@ color: #ff7500;
 
 .site-footer-socials a:active{
   opacity: 0.6;
+}
+
+.site-footer-socials svg{
+  display: block;
 }
 
 .site-footer-bottom{

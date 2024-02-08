@@ -8,10 +8,21 @@ body {
 
 /* SITENAV */
 .site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #fff;
 
 }
 
+.site-header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .sitenav-list{
+  display: flex;
   list-style: none;
 }
 
@@ -44,6 +55,9 @@ body {
 /* END SITENAV */
 
 .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252420;
   color: #fff;
 }
@@ -72,6 +86,12 @@ body {
   font-family: "Roboto Condensed", "Roboto", sans-serif;
 }
 
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
 .feature {
   width: 340px;
 }
@@ -93,6 +113,9 @@ body {
 /* Aksiya */
 
 .promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -122,17 +145,35 @@ body {
 
 
 /* Footer */
-.site-footer  ul{
-  list-style: none;
-}
 
 .site-footer {
   background-color: #f8f8f8;
 }
 
+.site-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.site-footer  ul{
+  list-style: none;
+}
+
+.site-footer-socials {
+  display: flex;
+  align-items: center;
+}
+
 .site-footer-divider {
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-bottom {
+  display: flex;
+  align-items: center;
 }
 
 .site-footer-links {

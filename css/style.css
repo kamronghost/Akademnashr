@@ -5,6 +5,11 @@ body {
   letter-spacing: 0.5px;
 }
 
+*:focus {
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+
+}
 
 /* SITENAV */
 .site-header {
@@ -203,7 +208,7 @@ body {
   color: #ff7500;
 }
 
-.site-footer-socials a:hover {
+.site-footer-socials a:active {
   opacity: 0.6;
 }
 

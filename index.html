@@ -14,6 +14,7 @@
     rel="stylesheet">
 
   <!-- Stillar -->
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -28,10 +29,10 @@
     <div class="site-header-nav">
       <nav>
         <ul class="sitenav-list">
-          <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-          <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-          <li><a class="sitenav-link" href="#">Aksiya</a></li>
-          <li><a class="sitenav-link" href="#">Bog'lanish</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Aksiya</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Bog'lanish</a></li>
         </ul>
       </nav>
       <a class="main-link" href="#">Ro'yhatdan o'tish</a>
@@ -102,13 +103,15 @@
     <section class="promo">
       <div class="promo-content">
         <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
-        <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq
-          qo’llanmalari va komikslar.
-        </p>
-        <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni
-          <strong class="promo-highlight">350 ming</strong> so’mga (aslida 383
-          ming
-          so’m) sotib olishingiz mumkin.</p>
+        <div class="promo-info-wrapper">
+          <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq
+            qo’llanmalari va komikslar.
+          </p>
+          <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni
+            <strong class="promo-highlight">350 ming</strong> so’mga (aslida 383
+            ming
+            so’m) sotib olishingiz mumkin.</p>
+        </div>
         <a class="main-link" href="">Buyurtma berish</a>
       </div>
       <img class="promo-img" src="./img/sale-img.jpg" alt="kitoblar aksiya" width="440" height="440"
@@ -128,7 +131,7 @@
         </a>
         <!-- Ijtimoiy tarmoqlar -->
         <ul class="site-footer-socials">
-          <li>
+          <li >
             <a href="#akademnashr" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
                 <path fill="currentColor"
@@ -136,7 +139,7 @@
               </svg>
             </a>
           </li>
-          <li>
+          <li >
             <a href="#akademnashr" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
                 <path fill="currentColor"
@@ -144,7 +147,7 @@
               </svg>
             </a>
           </li>
-          <li>
+          <li >
             <a href="#akademnashr" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
                 <path fill="currentColor" fill-rule="evenodd"
